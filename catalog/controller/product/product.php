@@ -155,10 +155,12 @@ class ControllerProductProduct extends Controller {
 		}
 
 		$this->load->model('catalog/product');
-
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 		$download_id = $this->model_catalog_product->getProductDownload($product_id);
 		$data['downloadurl']='http://www.spefittings.com/index.php?route=product/product/download&amp;download_id='.$download_id;
+		$this->load->model('catalog/information');
+		$information = $this->model_catalog_information->getInformation(7);
+		$data['codesystem']=$information['description'];
 		if ($product_info) {
 			$url = '';
 
@@ -262,6 +264,7 @@ class ControllerProductProduct extends Controller {
 
 			$data['tab_description'] = $this->language->get('tab_description');
 			$data['tab_attribute'] = $this->language->get('tab_attribute');
+			$data['tab_codesystem'] = $this->language->get('tab_codesystem');
 			$data['tab_review'] = sprintf($this->language->get('tab_review'), $product_info['reviews']);
 
 			$data['product_id'] = (int)$this->request->get['product_id'];

@@ -5,6 +5,7 @@ $_['text_product']          = 'Product';
 $_['text_aboutus']          = 'About Us';
 $_['text_quality']          = 'Quality Control';
 $_['text_contactus']          = 'Contact Us';
+$_['text_downloadcenter']          = 'Download';
 $_['text_wishlist']      = 'Wish List (%s)';
 $_['text_shopping_cart'] = 'Shopping Cart';
 $_['text_category']      = 'Categories';

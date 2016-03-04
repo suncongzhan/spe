@@ -62,7 +62,7 @@
           <div class="col-md-6">
             <ul class="list-inline top-v1-contacts">
               <li>
-                <i class="fa fa-envelope"></i> Email: <a href="mailto:info@htmlstream.com">chinaspe@hotmail.com</a>
+                <i class="fa fa-envelope"></i> Email: <a href="mailto:info@htmlstream.com">spe@scqdyy.com</a>
               </li>
               <li>
                 <i class="fa fa-phone"></i> Hotline: +86-0574-62243568
@@ -130,6 +130,11 @@
           <li>
             <a href="http://www.spefittings.com/index.php?route=information/quality">
               <?php echo $text_quality; ?>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.spefittings.com/index.php?route=information/download">
+              <?php echo $text_downloadcenter; ?>
             </a>
           </li>
           <li>

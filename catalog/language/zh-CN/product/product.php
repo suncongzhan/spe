@@ -45,6 +45,7 @@ $_['entry_captcha']            = '请在下框输入验证码：';
 $_['tab_description']          = '详情';
 $_['tab_attribute']            = '属性';
 $_['tab_review']               = '评论 (%s)';
+$_['tab_codesystem']               = '产品编号说明';
 
 // Error
 $_['error_name']               = '警告: 评论者姓名必须为 3 - 25字符！';

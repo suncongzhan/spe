@@ -25,6 +25,6 @@ $_['text_address']  = 'Low Tong Street Yuyao Lishan Guangming West Road No.65';
 $_['text_phone']  = '+86-0574-62243568';
 $_['text_websitetext']  = 'Website';
 $_['text_website']  = 'http://www.spefittings.com';
-$_['text_email']  = 'chinaspe@hotmail.com';
+$_['text_email']  = 'spe@scqdyy.com';
 $_['text_abouttext']  = 'Ningbo Shunchi pneumatic Element co., Ltd is specialized in manufacturing pneumatic fittings.';
 

@@ -5,6 +5,7 @@ $_['text_home']          = '首页';
 $_['text_product']          = '产品信息';
 $_['text_aboutus']          = '关于我们';
 $_['text_quality']           = '质量控制';
+$_['text_downloadcenter']           = '下载中心';
 $_['text_contactus']          = '联系我们';
 $_['text_wishlist']      = '收藏 (%s)';
 $_['text_shopping_cart'] = '购物车';

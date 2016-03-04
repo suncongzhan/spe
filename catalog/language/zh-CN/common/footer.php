@@ -26,7 +26,7 @@ $_['text_address']  = '余姚市低塘街道历山光明西路65号	';
 $_['text_phone']  = '+86-0574-62243568';
 $_['text_websitetext']  = '网站';
 $_['text_website']  = 'http://www.spefittings.com';
-$_['text_email']  = 'chinaspe@hotmail.com';
+$_['text_email']  = 'spe@scqdyy.com';
 $_['text_abouttext']  = ' 宁波舜驰气动科技有限公司是一家专业生产气动快速接头的厂家，并提供英制管系列接头。以先进的设备和严格的管理体制，以“顾客至上，信誉第一”为宗旨和良好的售后服务，为广大客户提供高标准，高质量的气动产品。';
 
 

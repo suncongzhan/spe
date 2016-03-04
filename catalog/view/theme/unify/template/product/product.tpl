@@ -91,6 +91,7 @@
             <?php if ($review_status) { ?>
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
+            <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_codesystem; ?></a></li>
           </ul>
           </div>
           <div class="tab-content">
@@ -162,6 +163,7 @@
               </form>
             </div>
             <?php } ?>
+            <div class="tab-pane" id="tab-review"><?php echo html_entity_decode($codesystem); ?></div>
           </div>
         </div>
         <?php if ($column_left || $column_right) { ?>
@@ -222,7 +224,6 @@
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
               <label class="control-label" for="input-option<?php echo $option['product_option_id']; ?>"><?php echo $option['name']; ?></label>
               <select name="option[<?php echo $option['product_option_id']; ?>]" id="input-option<?php echo $option['product_option_id']; ?>" class="form-control">
-                <option value=""><?php echo $text_select; ?></option>
                 <?php foreach ($option['product_option_value'] as $option_value) { ?>
                 <option value="<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
                 <?php if ($option_value['price']) { ?>
