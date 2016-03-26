@@ -4,8 +4,11 @@
     <div class="col-md-4 col-sm-6 col-xs-6">
       <div class="thumbnails thumbnail-style thumbnail-kenburn">
         <div class="thumbnail-img" style="text-align: center;">
-          <div class="overflow-hidden"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" /></a></div>
+          <div class="overflow-hidden"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>"/></a></div>
           <a class="btn-more hover-effect" href="<?php echo $product['href']; ?>">read more +</a>
+        </div>
+        <div class="caption">
+          <h3 style="    white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><a class="hover-effect" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h3>
         </div>
       </div>
     </div>

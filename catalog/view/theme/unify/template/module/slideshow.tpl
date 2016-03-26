@@ -10,7 +10,7 @@
       <a href="<?php echo $banner['link']; ?>"></a>
       <div class="ms-thumb"> <img width="140px" src="<?php echo $banner['image']; ?>" /><h3><?php echo $banner['title']; ?></h3></div>
       <?php } else { ?>
-      <img src="catalog/view/theme/unify/Shop-UI/assets/plugins/master-slider/quick-start/masterslider/style/blank.gif" data-src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>"/>
+      <img src="catalog/view/theme/unify/Shop-UI/assets/plugins/master-slider/quick-start/masterslider/style/blank.gif" data-src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" width="600px" height="400px"/>
 
       <div class="ms-thumb"> <img width="140px" src="<?php echo $banner['image']; ?>" /><h3><?php echo $banner['title']; ?></h3></div>
       <?php } ?>

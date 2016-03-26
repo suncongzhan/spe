@@ -1,17 +1,17 @@
 <?php
 
 // Heading
-$_['heading_title']            = '购物车内的产品';
+$_['heading_title']            = '询盘单';
 
 // Text
-$_['text_success']             = '成功添加产品<a href="%s">%s</a> 到您的 <a href="%s">购物车</a>！';
+$_['text_success']             = '成功添加产品<a href="%s">%s</a> 到您的 <a href="%s">询盘单</a>！';
 $_['text_remove']              = '您已成功更新了购物车！';
 $_['text_login']               = '注意： 您必须<a href="%s">登录</a> 或 <a href="%s">创建新账户</a> 后才能显示单价！';
 $_['text_items']               = '%s 个产品 - %s';
 $_['text_points']              = '奖励积分： %s';
 $_['text_next']                = '下一步您想要做什么？';
 $_['text_next_choice']         = '选择使用折扣券， 或奖励积分， 或预估配送成本';
-$_['text_empty']               = '您的购物车内没有产品！';
+$_['text_empty']               = '您的询盘单内没有产品！';
 $_['text_day']                 = '天';
 $_['text_week']                = '周';
 $_['text_semi_month']          = '半月';
@@ -43,3 +43,17 @@ $_['error_required']           = '%s 必须！';
 $_['error_product']            = '警告: 购物车内没有产品！';
 $_['error_recurring_required'] = '请选择分期付款方式！';
 
+$_['text_inquire_success']   = '<p>您的咨询内容已发送给网站管理员！</p>';
+
+// Entry
+$_['entry_name']     = '姓名';
+$_['entry_email']    = 'E-Mail';
+$_['entry_enquiry']  = '咨询内容';
+
+// Email
+$_['email_subject']  = '咨询 %s';
+
+// inquire_errors
+$_['inquire_error_name']     = '姓名必须为 3 - 32字符！';
+$_['inquire_error_email']    = 'E-Mail 无效！';
+$_['inquire_error_enquiry']  = '咨询内容必须为 10 - 3000字符！';

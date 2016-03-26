@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title']            = 'Shopping Cart';
+$_['heading_title']            = 'Inquire List';
 
 // Text
-$_['text_success']             = 'Success: You have added <a href="%s">%s</a> to your <a href="%s">shopping cart</a>!';
+$_['text_success']             = 'Success: You have added <a href="%s">%s</a> to your <a href="%s">Inquire List</a>!';
 $_['text_remove']              = 'Success: You have modified your shopping cart!';
 $_['text_login']               = 'Attention: You must <a href="%s">login</a> or <a href="%s">create an account</a> to view prices!';
 $_['text_items']               = '%s item(s) - %s';
 $_['text_points']              = 'Reward Points: %s';
 $_['text_next']                = 'What would you like to do next?';
 $_['text_next_choice']         = 'Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.';
-$_['text_empty']               = 'Your shopping cart is empty!';
+$_['text_empty']               = 'Your Inquire List is empty!';
 $_['text_day']                 = 'day';
 $_['text_week']                = 'week';
 $_['text_semi_month']          = 'half-month';
@@ -40,3 +40,18 @@ $_['error_minimum']            = 'Minimum order amount for %s is %s!';
 $_['error_required']           = '%s required!';
 $_['error_product']            = 'Warning: There are no products in your cart!';
 $_['error_recurring_required'] = 'Please select a payment recurring!';
+
+$_['text_inquire_success']   = '<p>Your enquiry has been successfully sent to the store owner!</p>';
+
+// Entry
+$_['entry_name']     = 'Your Name';
+$_['entry_email']    = 'E-Mail Address';
+$_['entry_enquiry']  = 'Enquiry';
+
+// Email
+$_['email_subject']  = 'Enquiry %s';
+
+// inquire_errors
+$_['inquire_error_name']     = 'Name must be between 3 and 32 characters!';
+$_['inquire_error_email']    = 'E-Mail Address does not appear to be valid!';
+$_['inquire_error_enquiry']  = 'Enquiry must be between 10 and 3000 characters!';

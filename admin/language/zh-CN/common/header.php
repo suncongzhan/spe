@@ -1,7 +1,7 @@
 <?php
 
 // Heading
-$_['heading_title']        = 'MyCnCart China';
+$_['heading_title']        = 'Spe';
 
 // Text
 $_['text_order']           = '订单';

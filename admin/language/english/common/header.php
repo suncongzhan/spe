@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']        = 'MyCnCart';
+$_['heading_title']        = 'SPE';
 
 // Text
 $_['text_order']           = 'Orders';

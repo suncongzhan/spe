@@ -73,7 +73,7 @@ class ControllerInformationAllproduct extends Controller {
 
 			$data['categories'][] = array(
 				'category_id' => $category['category_id'],
-				'name'        => $category['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
+				'name'        => $category['name'],
 				'children'    => $children_data,
 				'href'        => $this->url->link('product/category', 'path=' . $category['category_id']),
 				'image'       => $this->model_tool_image->resize($category['image'], 200, 200)

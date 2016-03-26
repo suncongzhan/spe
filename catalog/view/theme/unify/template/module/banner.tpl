@@ -9,7 +9,7 @@
     <div style="min-height:100px;" class="item">
     <?php } ?>
     <?php if ($banner['link']) { ?>
-    <a href="<?php echo $banner['link']; ?>"><img style="margin:0 auto" src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" /></a>
+    <a href="<?php echo $banner['link']; ?>"><img style="margin:0 auto" src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>" width="182px" height="182px"/></a>
     <?php } else { ?>
     <img style="margin:0 auto" src="<?php echo $banner['image']; ?>" alt="<?php echo $banner['title']; ?>"/>
     <?php } ?>

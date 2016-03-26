@@ -17,9 +17,7 @@
 <?php if ($keywords) { ?>
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
-  <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
-  <script type="text/javascript" src="catalog/view/theme/unify/plugins/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="catalog/view/theme/unify/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!--<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>-->
   <!-- CSS Global Compulsory -->
   <link rel="stylesheet" href="catalog/view/theme/unify/plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="catalog/view/theme/unify/css/style.css">
@@ -41,13 +39,15 @@
   <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
-<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
-<?php foreach ($scripts as $script) { ?>
-<script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } ?>
+  <script type="text/javascript" src="catalog/view/theme/unify/plugins/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="catalog/view/theme/unify/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+  <?php foreach ($scripts as $script) { ?>
+  <script src="<?php echo $script; ?>" type="text/javascript"></script>
+  <?php } ?>
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
@@ -81,7 +81,13 @@
         <ul class="loginbar pull-right">
           <?php echo $language; ?>
           <li class="topbar-devider"></li>
+          <?php if ($logged) { ?>
+          <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+          <li class="topbar-devider"></li>
+          <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
+          <?php } else { ?>
           <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+          <?php } ?>
         </ul>
       </div>
       <!-- Toggle get grouped for better mobile display -->

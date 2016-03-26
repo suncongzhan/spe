@@ -63,11 +63,10 @@
             <div class="col-md-4 col-sm-4 col-xs-6">
                 <div class="thumbnails thumbnail-style">
                 <a href="<?php echo $category['href']; ?>">
-                        <img style="margin: 0 auto;" class="img-responsive" src="<?php echo $category['image']; ?>" alt="">
+                        <img style="margin: 0 auto;" class="img-responsive" src="<?php echo $category['image']; ?>" alt="<?php echo $category['name']; ?>">
                 </a>
                     <div class="caption">
-                        <p><a class="hover-effect" href="#"><?php echo $category['name']; ?></a></p>
-                        <p><a href="#" class="btn-u btn-u-xs">Read more <i class="fa fa-angle-right margin-left-5"></i></a></p>
+                        <p><a class="hover-effect" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></p>
                     </div>
                 </div>
             </div>

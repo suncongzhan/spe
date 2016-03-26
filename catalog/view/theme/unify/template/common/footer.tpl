@@ -15,8 +15,8 @@
           <div class="headline"><h2 class="heading-sm"><?php echo $text_usefullink; ?></h2></div>
           <ul class="list-unstyled link-list">
             <li><a href="http://www.spefittings.com/index.php?route=common/home"><?php echo $text_home; ?></a><i class="fa fa-angle-right"></i></li>
-            <li><a href="http://www.spefittings.com/index.php?route=product/category&path=60"><?php echo $text_product; ?></a><i class="fa fa-angle-right"></i></li>
-            <li><a href="#"><?php echo $text_aboutus; ?></a><i class="fa fa-angle-right"></i></li>
+            <li><a href="http://www.spefittings.com/index.php?route=information/allproduct"><?php echo $text_product; ?></a><i class="fa fa-angle-right"></i></li>
+            <li><a href="http://www.spefittings.com/index.php?route=information/aboutus"><?php echo $text_aboutus; ?></a><i class="fa fa-angle-right"></i></li>
             <li><a href="<?php echo $contact; ?>"><?php echo $text_contactus; ?></a><i class="fa fa-angle-right"></i></li>
           </ul>
         </div>
